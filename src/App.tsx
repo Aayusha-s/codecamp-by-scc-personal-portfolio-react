@@ -21,10 +21,11 @@ const themes = [
 ];
 
 const App = () => {
-  const [easterEggUnlockedState, setEasterEggUnlockedState] = useState(false);
+  const [easterEggUnlockedState, setEasterEggUnlockedState] = useState(true);
   const [theme, setTheme] = useState("classic");
   const confettiCanvasRef = useRef<HTMLCanvasElement | null>(null);
 
+  
   useEffect(() => {
     setEasterEggUnlockedState(getEasterEggUnlocked());
     const storedTheme = getStoredTheme();

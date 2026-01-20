@@ -24,6 +24,14 @@ export const defaultProjects: Project[] = [
     link: "https://example.com",
     tags: ["Design", "UI"],
   },
+
+  {
+    title: "Sample Title",
+    description: "A description of the project",
+    link: "https://example.com",
+    tags: ["Tag1", "Tag2"],
+  }
+
 ];
 
 export const projectsData: Project[] = [

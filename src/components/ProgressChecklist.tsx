@@ -7,7 +7,7 @@ type ProgressChecklistProps = {
   defaultTagline: string;
   projectsCount: number;
   defaultProjectsCount: number;
-  easterEggUnlocked: boolean;
+  easterEggUnlocked: true | false;
   badge?: ReactNode;
 };
 
